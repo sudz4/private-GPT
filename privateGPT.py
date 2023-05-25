@@ -46,9 +46,8 @@ def main():
 
         # Get the answer from the chain
         res = qa(query)
-        # answer, docs = res['result'], [] if args.hide_source else res['source_documents']
-        answer, docs = res['result'], [] if args.hide_source else res['security_source_docs'] # NIST docs and ISO27000 (pdf)
-
+        answer, docs = res['result'], [] if args.hide_source else res['source_documents']
+        
         # Print the result
         print("\n\n> Question:")
         print(query)
