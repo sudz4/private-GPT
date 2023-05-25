@@ -1,3 +1,9 @@
+# virtual env
+pgpt_venv/
+
+# files
+source_documents/
+
 # OSX
 .DS_STORE
 
